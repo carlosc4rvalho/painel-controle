@@ -1,0 +1,40 @@
+.CadastroUsuarioContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100dvh;
+    padding: 10%;
+}
+
+.CadastroUsuarioContainer > form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    gap: 1rem;
+}
+
+.CadastroUsuarioContainer > form header {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.CadastroUsuarioContainer > form div {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.CadastroUsuarioContainer > form input {
+    padding: 1rem;
+    border-radius: .5rem;
+    border: none;
+}
+
+.CadastroUsuarioContainer > form button {
+    padding: 1rem;
+    border: none;
+    color: white;
+    background-color: blue;
+    border-radius: .5rem;
+}
